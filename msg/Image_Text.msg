@@ -1,0 +1,2 @@
+string finalip
+string text

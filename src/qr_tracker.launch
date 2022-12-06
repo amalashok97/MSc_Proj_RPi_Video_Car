@@ -1,0 +1,4 @@
+<launch>
+<node name="camera_stream" pkg="qr_tracker" type="camera_stream.py" args="" respawn="false" output="screen"/>
+<node name="robot_movement" pkg="qr_tracker" type="robot_movement.py" args="" respawn="false" output="screen"/>
+</launch>
